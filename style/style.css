@@ -1567,14 +1567,17 @@ img {
 .questions__content-blocks:first-of-type {
     margin-top: 34px;
 }
+
 .questions__content-blocks:nth-of-type(3) {
     flex-direction: column;
     justify-content: center;
 }
+
 .together {
     display: flex;
     padding-bottom: 24px;
 }
+
 .questions__content-text {
     margin-left: 30px;
 }
@@ -1591,4 +1594,66 @@ img {
     padding-top: 24px;
     width: 94%;
 
+}
+
+
+/* **************** */
+/* connect page */
+
+.map {
+    margin-bottom: 80px;
+}
+
+.connect-h1 {
+    width: 481px;
+}
+
+.map__content {
+    margin-top: 44px;
+}
+
+.map__foot {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 70px;
+}
+
+.map__foot-items {
+    display: flex;
+    align-items: center;
+    margin-top: 11px;
+}
+
+.map__foot-title {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    margin-top: 31px;
+    margin-bottom: 20px;
+}
+
+.map__foot-text {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    opacity: 0.6;
+    margin-bottom: 12px;
+}
+
+.map__foot-text-soc {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    opacity: 0.6;
+    margin-left: 11px;
+    color: black;
 }

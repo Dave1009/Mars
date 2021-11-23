@@ -42,6 +42,7 @@ $('.lesson__content-slider').slick({
   speed: 300,
   slidesToShow: 1,
   slidesToScroll: 1,
+  arrows: false,
   // autoplay: true,
   mouseonhover: true,
   responsive: [{
