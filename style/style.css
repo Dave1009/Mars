@@ -155,6 +155,7 @@ img {
 
 /* about */
 
+
 .about__content {
     display: flex;
     justify-content: space-around;
@@ -163,7 +164,34 @@ img {
 
 .about__content-left {
     width: 550px;
+    position: relative;
 }
+
+.about__content-img {
+    background: url(../img/h2__logo\ background.png) no-repeat;
+    /* background-position-y: -10% ; */
+    background-position-x: 26% ;
+    width: 257px;
+    height: 135px;
+    
+}
+
+.h2__logo {
+    display: block;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 46px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    padding-top: 12px;
+}
+
+/* .h2__background{
+    position: absolute;
+    top: -20px;
+    left: 10px;
+} */
 
 .about__content-text {
     margin-bottom: 12px;
@@ -222,6 +250,7 @@ img {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    height: 420px;
 }
 
 .lesson__right {
