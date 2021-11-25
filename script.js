@@ -6,6 +6,25 @@ $('.mijozlar__content-slider').slick({
   speed: 1000,
   slidesToShow: 3,
   slidesToScroll: 3,
+  responsive: [
+    {
+      breakpoint: 900,
+      settings: {
+        slidesToShow:2,
+        slidesToScroll: 2,
+
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow:1,
+        slidesToScroll: 1,
+        speed: 300,
+
+      }
+    }
+  ]
 });
 
 
@@ -13,20 +32,29 @@ $('.mijozlar__content-slider').slick({
 
 
 $('.about__us-slider').slick({
-  prevArrow: '<div class="prev"><i class="far fa-chevron-left chevron slider__chevron-left"></i></div>',
-  nextArrow: '<div class="next"><i class="far fa-chevron-right chevron slider__chevron-right"></i></div>',
+  prevArrow: '<div class="prev"><i class="far fa-chevron-left chevron slider__chevron-left slider__chevron-head"></i></div>',
+  nextArrow: '<div class="next"><i class="far fa-chevron-right chevron slider__chevron-right slider__chevron-head"></i></div>',
   centerMode: true,
   centerPadding: '200px',
   slidesToShow: 2,
   responsive: [
     {
-      breakpoint: 768,
+      breakpoint: 992,
       settings: {
-        arrows: false,
-        slidesToShow: 3,
+        slidesToShow: 2,
         slidesToScroll: 1,
         infinite: true,
-        centerPadding: '10px'
+        centerPadding: '100px'
+      }
+    },
+    {
+      breakpoint: 800,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        infinite: true,
+        dots:true,
+        centerMode: false
       }
     }
   ]
@@ -81,7 +109,7 @@ window.addEventListener('scroll', () => {
   let currentscrollPos = window.pageYOffset
   if (prevScrollPos > currentscrollPos) {
     header.style.top = '0'
-  } else  {
+  } else {
     header.style.top = '-86px'
   }
   prevScrollPos = currentscrollPos
