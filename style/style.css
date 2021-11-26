@@ -1987,6 +1987,11 @@ img {
     .header__content-video {
         height: 100%;
     }
+
+    .header {
+        height: 100% !important;
+        padding-top: 83px;
+    }
 }
 
 @media(max-width:800px) {
