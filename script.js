@@ -10,7 +10,7 @@ $('.mijozlar__content-slider').slick({
     {
       breakpoint: 900,
       settings: {
-        slidesToShow:2,
+        slidesToShow: 2,
         slidesToScroll: 2,
 
       }
@@ -18,7 +18,7 @@ $('.mijozlar__content-slider').slick({
     {
       breakpoint: 600,
       settings: {
-        slidesToShow:1,
+        slidesToShow: 1,
         slidesToScroll: 1,
         speed: 300,
 
@@ -53,7 +53,7 @@ $('.about__us-slider').slick({
         slidesToShow: 1,
         slidesToScroll: 1,
         infinite: true,
-        dots:true,
+        dots: true,
         centerMode: false
       }
     }
@@ -102,17 +102,23 @@ $('.lesson__content-slider').slick({
   ]
 });
 
-const header = document.querySelector('.header__head')
+const header = document.querySelector('.header__head');
+const imgWhite = document.querySelector('.header__logo-img-white');
+const imgDefault = document.querySelector('.header__logo-img-default');
+
 let prevScrollPos = window.pageYOffset;
 
 window.addEventListener('scroll', () => {
   let currentscrollPos = window.pageYOffset
   if (prevScrollPos > currentscrollPos) {
-    header.style.top = '0'
-  } else {
-    header.style.top = '-86px'
+    header.style.top = '0';
+    // imgDefault.style.opacity = '1'
   }
-  prevScrollPos = currentscrollPos
+  else { 
+    header.style.top = '-86px';
+    // imgWhite.style.opacity = '1'
+  }
+  prevScrollPos = currentscrollPos;
 })
 
 const burger = document.querySelector('.header__burger')
