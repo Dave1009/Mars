@@ -395,6 +395,10 @@ img {
     align-items: center;
 }
 
+.start__content-img {
+    width: 20px;
+}
+
 .start__content-title {
     display: flex;
     align-items: center;
@@ -424,7 +428,6 @@ img {
     box-sizing: border-box;
     border-radius: 8px;
     padding: 12px 28px;
-    margin-top: 25px;
 }
 
 .start__content-arrow:hover {
@@ -598,7 +601,8 @@ img {
 
 .start__link {
     text-align: center;
-    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-top: 70px;
 
 }
 
@@ -1026,6 +1030,7 @@ img {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    cursor: pointer;
 }
 
 .kurs__list-content {
@@ -1098,7 +1103,7 @@ img {
 
 .kurs__list-content-right a:hover {
     background: black;
-    color: white;
+    fill: white;
 }
 
 .border {
