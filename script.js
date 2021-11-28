@@ -102,24 +102,9 @@ $('.lesson__content-slider').slick({
   ]
 });
 
-const header = document.querySelector('.header__head');
 const imgWhite = document.querySelector('.header__logo-img-white');
 const imgDefault = document.querySelector('.header__logo-img-default');
 
-let prevScrollPos = window.pageYOffset;
-
-window.addEventListener('scroll', () => {
-  let currentscrollPos = window.pageYOffset
-  if (prevScrollPos > currentscrollPos) {
-    header.style.top = '0';
-    // imgDefault.style.opacity = '1'
-  }
-  else { 
-    header.style.top = '-86px';
-    // imgWhite.style.opacity = '1'
-  }
-  prevScrollPos = currentscrollPos;
-})
 
 const burger = document.querySelector('.header__burger')
 const list = document.querySelector('.header__content-list')

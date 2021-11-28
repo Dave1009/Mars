@@ -107,7 +107,7 @@ img {
     height: 86px;
     width: 100%;
     transition: .3s;
-    z-index: 999;
+    z-index: 999999 !important;
 }
 
 .header__content {
@@ -1451,6 +1451,9 @@ img {
     color: #0A54C4;
 }
 
+.block {
+    display: none;
+}
 
 /* Questions */
 
