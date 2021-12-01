@@ -164,6 +164,11 @@ img {
     color: white;
     transition: .5s;
 }
+.header__content-p-black {
+    margin-right: 40px;
+    color: black;
+    transition: .5s;
+}
 
 .header__content-lang {
     display: none;
@@ -173,6 +178,13 @@ img {
 .header__content-join {
     color: black;
     background: white;
+    padding: 12px 26px;
+    border-radius: 8px;
+    transition: all .5s;
+}
+.header__content-join-black {
+    color: white;
+    background: black;
     padding: 12px 26px;
     border-radius: 8px;
     transition: all .5s;
@@ -196,7 +208,7 @@ img {
 /* about */
 
 .about {
-    margin-top: 20%;
+    margin-top: 12%;
 }
 
 .about__content-right img {
@@ -208,12 +220,12 @@ img {
 
 .about__content {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly ;
     align-items: center;
 }
 
 .about__content-left {
-    width: 550px;
+    max-width: 650px;
     position: relative;
 }
 
@@ -305,8 +317,9 @@ img {
 }
 
 .lesson__right img {
-    max-width: 42px;
+    max-width: 54px;
     width: 100%;
+    padding-top: 66px;
 }
 
 .lesson__left img {
@@ -329,7 +342,6 @@ img {
 
 .lesson__content-item {
     display: flex;
-    align-items: center;
     justify-content: space-between;
     height: 420px;
 }
@@ -338,9 +350,7 @@ img {
     padding-left: 66px;
 }
 
-.lesson__right img {
-    margin-bottom: 30px;
-}
+
 
 .lesson__title {
     font-size: 32px;
@@ -396,7 +406,7 @@ img {
 }
 
 .start__content-img {
-    width: 20px;
+    width: 30px;
 }
 
 .start__content-title {
@@ -428,6 +438,11 @@ img {
     box-sizing: border-box;
     border-radius: 8px;
     padding: 12px 28px;
+    align-items: center;
+}
+.start__content-arrow i {
+    margin-bottom: 3px;
+    font-size: 14px;
 }
 
 .start__content-arrow:hover {
@@ -929,12 +944,12 @@ img {
 .kurs__main-head {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-between ;
     margin-top: 150px;
 }
 
 .kurs__main-img {
-    max-width: 590px;
+    max-width: 700px;
     width: 100%;
 }
 
@@ -959,7 +974,7 @@ img {
     line-height: 28px;
     letter-spacing: -0.01em;
     text-align: left;
-    max-width: 400px;
+    max-width: 538px;
     width: 100%;
     margin-top: 18px;
     margin-bottom: 32px;
@@ -1251,6 +1266,7 @@ img {
 /* about as Page */
 
 
+
 .about__head-title {
     font-size: 40px;
     font-style: normal;
@@ -1300,6 +1316,7 @@ img {
     height: 100%;
     border-radius: 12px;
     margin-left: 20px;
+    object-fit: cover;
 }
 
 
@@ -1816,6 +1833,9 @@ img {
         max-height: 326px;
         width: 100%;
         height: 100%;
+    }
+    .lesson__content-item {
+        align-items: center;
     }
 }
 
