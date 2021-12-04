@@ -2138,7 +2138,8 @@ img {
 @media(max-width:700px) {
 
     .lesson__left img {
-        width: 80%;
+        width: 500px;
+        
     }
 
     .about {

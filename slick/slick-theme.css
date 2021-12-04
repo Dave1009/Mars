@@ -136,6 +136,24 @@
     list-style: none;
     padding-bottom: 20px;
 }
+
+@media(max-width:1110px) {
+  .slick-dots {
+      bottom: -20px;
+  }
+}
+
+@media(max-width:992px) {
+    .slick-dots {
+        left: 35px;
+    }
+}
+@media(max-width:755px) {
+    .slick-dots {
+        bottom: 60px !important;
+    }
+}
+
 .slick-dots li
 {
     position: relative;
