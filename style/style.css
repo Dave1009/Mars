@@ -1908,31 +1908,31 @@ img {
         font-size: 24px;
     }
 
-    .header__burger {
-        display: block;
-        position: relative;
-        width: 35px;
-        height: 30px;
-    }
+        .header__burger {
+            display: block;
+            position: relative;
+            width: 35px;
+            height: 30px;
+        }
 
-    .header__burger-line:first-of-type {
-        position: absolute;
-        top: 0;
-        right: 3px;
-        width: 70%;
-        height: 3px;
-        background: white;
-    }
+        .header__burger-line:first-of-type {
+            position: absolute;
+            top: 0;
+            right: 3px;
+            width: 70%;
+            height: 3px;
+            background: white;
+        }
 
-    .header__burger-line:nth-of-type(2) {
-        position: absolute;
-        top: 50%;
-        transform: translateY(-50%);
-        right: 0;
-        width: 100%;
-        height: 3px;
-        background: white;
-    }
+        .header__burger-line:nth-of-type(2) {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            right: 0;
+            width: 100%;
+            height: 3px;
+            background: white;
+        }
 
     .header__burger-line-black {
         background: black !important;
